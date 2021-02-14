@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAP, FILTER E REDUCE</title>
+</head>
+<body>
+    <script>
+        //===== MAP =========
+        console.log("===== MAP =========");
+        const numeros = [2, 3, 6 , 5 , 10];
+
+        const mapArray = numeros.map(function(numero){
+            return numero * 2
+        });
+        console.log("mapArray =>", mapArray);
+
+        const mapArray2 = numeros.map(numero => numero * 2);
+        console.log("mapArray2 =>", mapArray2);
+
+
+        const nomes = ['ana', 'carol', 'laura', 'marcos', 'thays'];
+        const nomesMaiusculus = nomes.map( nome => nome.toUpperCase());
+        console.log(nomesMaiusculus);
+        console.log("===== MAP =========");
+        //===== MAP =========
+
+        //===== FILTER =========
+        console.log("===== FILTER =========");
+        const multiplos2 = numeros.filter( numero => numero % 2 ===0 ? true: false);
+        console.log("multiplos2 =>", multiplos2);
+
+        const nomeBuscado = nomes.filter(nome => nome === 'ana');
+        console.log("nomeBuscado =>", nomeBuscado);
+        console.log("===== FILTER =========");
+        //===== FILTER =========
+
+
+        //===== REDUCE =========
+        console.log("===== REDUCE =========");
+        let valorInicial = 0;
+        const soma = numeros.reduce((valorAcumulador, valorArray) =>{ return valorAcumulador + valorArray }, valorInicial);
+        console.log("soma =>", soma);
+
+        //retorno de objeto
+        const pessoas = [ {idade: 18, nome: 'Marcos'}, {idade: 3, nome: 'Laura'}, {idade: 25, nome: 'Amanda'},{idade: 4, nome: 'Manu'}]
+
+        const objeto = pessoas.reduce((valorAcumulador,  valorArray)=>{
+            const pessoaMaiorOuMenor = valorArray.idade >= 18 ? 'maiores' : 'menores';
+             valorAcumulador[pessoaMaiorOuMenor].push(valorArray);
+            return valorAcumulador;
+        },{maiores: [], menores: []})     
+        console.log("objeto =>", objeto);
+
+
+        console.log("===== REDUCE =========");
+
+        //===== REDUCE =========
+
+
+       
+	const newReleases = [
+		{
+			"id": 70111470,
+			"title": "Die Hard",
+			"boxart": "http://cdn-0.nflximg.com/images/2891/DieHard.jpg",
+			"uri": "http://api.netflix.com/catalog/titles/movies/70111470",
+			"rating": [4.0],
+			"bookmark": []
+		},
+		{
+			"id": 654356453,
+			"title": "Bad Boys",
+			"boxart": "http://cdn-0.nflximg.com/images/2891/BadBoys.jpg",
+			"uri": "http://api.netflix.com/catalog/titles/movies/70111470",
+			"rating": [5.0],
+			"bookmark": [{ id: 432534, time: 65876586 }]
+		},
+		{
+			"id": 65432445,
+			"title": "The Chamber",
+			"boxart": "http://cdn-0.nflximg.com/images/2891/TheChamber.jpg",
+			"uri": "http://api.netflix.com/catalog/titles/movies/70111470",
+			"rating": [4.0],
+			"bookmark": []
+		},
+		{
+			"id": 675465,
+			"title": "Fracture",
+			"boxart": "http://cdn-0.nflximg.com/images/2891/Fracture.jpg",
+			"uri": "http://api.netflix.com/catalog/titles/movies/70111470",
+			"rating": [5.0],
+			"bookmark": [{ id: 432534, time: 65876586 }]
+		}
+	];
+
+	// ------------ INSERT CODE HERE! -----------------------------------
+	// Use map function to accumulate {id, title} pairs from each video.
+const teste =  newReleases.map( valor =>({ id: valor.id, title: valor.title}));
+console.log(teste);
+	// ------------ INSERT CODE HERE! -----------------------------------
+
+
+    </script>
+
+    
+</body>
+</html>

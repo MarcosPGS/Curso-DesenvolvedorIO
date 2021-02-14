@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "7j8uWW7b+3pdceV391yXOD7gZlAXDDyJ6J6udqusrhtOyJsw8irbNrEEI/FA/SrBFvOldUG64k+PX9Y+zNw7pQ==",
+  "success": true,
+  "projectFilePath": "/Users/marcospaulo/Documents/Curso Desenvolvedor IO/back-end/src/DevIO.Business/DevIO.Business.csproj",
+  "expectedPackageFiles": [
+    "/Users/marcospaulo/.nuget/packages/fluentvalidation/8.6.2/fluentvalidation.8.6.2.nupkg.sha512",
+    "/Users/marcospaulo/.nuget/packages/system.componentmodel.annotations/4.4.1/system.componentmodel.annotations.4.4.1.nupkg.sha512"
+  ],
+  "logs": []
+}

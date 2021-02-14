@@ -1,0 +1,12 @@
+/Users/marcospaulo/Documents/Curso Desenvolvedor IO/back-end/src/DevIO.Data/bin/Debug/netcoreapp3.1/DevIO.Data.deps.json
+/Users/marcospaulo/Documents/Curso Desenvolvedor IO/back-end/src/DevIO.Data/bin/Debug/netcoreapp3.1/DevIO.Data.dll
+/Users/marcospaulo/Documents/Curso Desenvolvedor IO/back-end/src/DevIO.Data/bin/Debug/netcoreapp3.1/DevIO.Data.pdb
+/Users/marcospaulo/Documents/Curso Desenvolvedor IO/back-end/src/DevIO.Data/bin/Debug/netcoreapp3.1/DevIO.Business.dll
+/Users/marcospaulo/Documents/Curso Desenvolvedor IO/back-end/src/DevIO.Data/bin/Debug/netcoreapp3.1/DevIO.Business.pdb
+/Users/marcospaulo/Documents/Curso Desenvolvedor IO/back-end/src/DevIO.Data/obj/Debug/netcoreapp3.1/DevIO.Data.csprojAssemblyReference.cache
+/Users/marcospaulo/Documents/Curso Desenvolvedor IO/back-end/src/DevIO.Data/obj/Debug/netcoreapp3.1/DevIO.Data.AssemblyInfoInputs.cache
+/Users/marcospaulo/Documents/Curso Desenvolvedor IO/back-end/src/DevIO.Data/obj/Debug/netcoreapp3.1/DevIO.Data.AssemblyInfo.cs
+/Users/marcospaulo/Documents/Curso Desenvolvedor IO/back-end/src/DevIO.Data/obj/Debug/netcoreapp3.1/DevIO.Data.csproj.CoreCompileInputs.cache
+/Users/marcospaulo/Documents/Curso Desenvolvedor IO/back-end/src/DevIO.Data/obj/Debug/netcoreapp3.1/DevIO.Data.csproj.CopyComplete
+/Users/marcospaulo/Documents/Curso Desenvolvedor IO/back-end/src/DevIO.Data/obj/Debug/netcoreapp3.1/DevIO.Data.dll
+/Users/marcospaulo/Documents/Curso Desenvolvedor IO/back-end/src/DevIO.Data/obj/Debug/netcoreapp3.1/DevIO.Data.pdb
